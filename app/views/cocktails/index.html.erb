@@ -1,9 +1,12 @@
-<h1>Let me show you our list of Cocktails : </h1>
+<div class="banner" style="background-image: url(https://cdn.concours.ch/pictures/595a/55790/595a5579047ed/plages-paradisiaques-seychelles.jpg?c=1499092345);">
+  <div class="container">
+    <h1 class="h1"> Our Cocktails : </h1>
 
-<ul>
-<% @cocktails.each do |cocktail| %>
-<li> <%= link_to cocktail.name, cocktail_path(cocktail.id) %> </li>
-<% end %>
-</ul>
+  <ol class="list">
+  <% @cocktails.each do |cocktail| %>
+     <li> <p><%= link_to cocktail.name, cocktail_path(cocktail.id), class:"test"%> </p> </li>
+  <% end %>
+</ol>
 
-<%= link_to " + Add a cocktail", new_cocktail_path %>
+ </div>
+</div>

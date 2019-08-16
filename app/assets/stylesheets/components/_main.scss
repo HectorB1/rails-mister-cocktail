@@ -1,0 +1,38 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 423px;
+  height: 370px;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 45px 0;
+  height: 658px;
+
+ h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 55px;
+  font-weight: bold;
+  }
+}
+
+.list {
+  color:white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold
+}
+
+
+.test{
+  color:white
+}
+
+.h1 {
+  padding-bottom: 30px;
+  margin-left: 35px;
+}
